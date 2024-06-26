@@ -1,0 +1,512 @@
+@font-face {
+  font-family: font1;
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/eee1724e2e5a8ebd.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/276edd4275dda838.woff2);
+}
+@font-face {
+  font-family: font3;
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/14f73a3f74611002.woff2);
+}
+@font-face {
+  font-family: font4;
+  src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 6px 18px;
+  }
+  .space{
+    flex: 1;
+  }
+  .part1 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+  }
+  
+  
+  .logo img {
+    padding-top: 1px;
+    margin-left: 18px;
+    width: 89px;
+    object-fit: cover;
+  }
+  .userIcon{
+    margin-right: 0px;
+    border-radius: 50px;
+    padding:5px 10px;
+    border: none;
+    background: #fff;
+}
+.userIcon svg{
+    width: 16px;
+} 
+  .login-btn,
+  .signup-btn {
+    margin-left: 10px;
+    border-radius: 25px;
+    padding: 10px 13px;
+    border: none;
+    font-size: 13.5px;
+    font-weight: bolder;
+    font-family: font2;
+  }
+  .login-btn {
+    visibility: hidden;
+    color: #000;
+    background: #fff;
+  }
+  
+  .signup-btn {
+    
+    color: #fff;
+    background: #000;
+  }
+  /* Oredr delivery part*/
+  .orderDelivery {
+    width: 90%;
+    max-width: 450px;
+    margin: 34px auto;
+    padding-top: 19px;
+    padding-left: 31px;
+    padding-right: 32px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* text-align: center; */
+  }
+  .orderDelivery h1 {
+    font-weight: 700;
+    font-family: font3;
+    font-size:36px;
+    width: 450px;
+    margin-bottom: 24px;
+  }
+  
+  .delivery-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .delivery-address,
+  .delivery-now {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 56px;
+    padding-left: 15px;
+  }
+  .delivery-address{
+     margin-top: 9px;
+  }
+  .location-icon,
+  .delivery-icon {
+    margin-right: 0px;
+    padding-left: 1px;
+    padding-top: 3px;
+  }
+  
+  .location-text,
+  .delivery-text {
+    flex: 1;
+    color: #4b4b4b;
+    font-size: 16px;
+    margin-left: 12.1px;
+    font-family: font2;
+    padding-bottom: 2px;
+  }
+  .delivery-text {
+    font-family: font1;
+    color: #000;
+  }
+  .delivery-select-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+  
+  .search-here {
+    margin-top: 8px;
+    text-align: center;
+    padding-top: 17px;
+    padding-left: 0.5px;
+    font-size: 18px;
+    font-family: font1;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 24px;
+    font-size: 14px;
+    font-family: font1;
+  }
+  
+  .links p {
+    margin-right: 3.5px;
+  }
+  
+  .links .link {
+    color: #000;
+  }
+  
+  #home {
+    background-image: url(	https://www.ubereats.com/_static/d8ceaf24a3164759.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /*get-app section*/
+.get-app{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.get-app-logo{
+  height: 64px;
+  width: 64px;
+}
+.space-getapp{
+  width: 16px;
+}
+.get-app-head{
+ font-family: font3;
+}
+.get-app-button{
+  display: flex;
+  margin: 20px 15px;
+  height: 56px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px 20%;
+  padding-left: 40%;
+  overflow: hidden;
+  padding-right: auto;
+  background: #f8f4f4;
+}
+.get-app-button-logo{
+ size: 18px;
+}
+.get-app-button-text{
+  font-family: font1;
+  font-size:18px ;
+}
+.image-flex{
+  display: flex;
+  flex-direction: column;
+  padding:16px ;
+}
+.feed-your-employee-img
+,.your-resturant-img,
+.deliver-with-uber-img{
+  width: 100%;
+}
+.feed-your-employee-head,
+.your-resturan-head,
+.deliver-with-uber-head{
+  font-size: 27px;
+  font-family: font3;
+}
+.create-account,
+.add-reasturant,
+.sign-up-to-deliver{
+  font-size: 17px;
+  text-decoration: underline;
+  font-family: font1;
+  margin-top: 5px;
+}
+.image-flex-spacer{
+  height: 36px;
+}
+/*Map section*/
+.spacer-1{
+  margin: 0;
+  padding: 0;
+  height: 80px;
+}
+.cities-flex{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 40px;
+}
+/* .cities-near-me{
+  display: flex;
+  flex-direction: column;
+} */
+.cities-near-me-head{
+  font-family: font3;
+  font-size: 26px;
+}
+.map-image{
+  background-image: url("map.png");
+  margin-top: 10px;
+  height:360px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.country-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(12, 1fr);
+  grid-auto-flow: column; 
+  list-style: none;
+}
+.country-grid li:nth-child(n+25) {
+  display: none;
+}
+.view-all-cities{
+  font-size: 17px;
+  color: #000;
+  font-family: font1;
+  margin-top: 5px;
+}
+.countries-with-uberEats-grid{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(30, 1fr);
+  grid-auto-flow: column; 
+  list-style: none;
+}
+.countries-with-uberEats{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 40px;
+}
+.appstore-logos{
+  display: flex;
+}
+.get-help-flex,
+.resturant-near-me-flex{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  
+}
+.get-help-flex li,
+.resturant-near-me-flex li {
+  margin: 10px 16px;
+}
+.english{
+  display: flex;
+}
+.english-Icon{
+  margin-right: 10px;
+}
+.social-media{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.privacy-policy-flex,.Uber-technologies{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding: 0; */
+  list-style: none;
+}
+.privacy-policy-flex li,.Uber-technologies li{
+  margin: 10px 16px;
+}
+
+
+
+  @media (min-width: 1024px) {
+    #home {
+      background-image: url(	https://www.ubereats.com/_static/c413f20400e04805.webp);
+    }
+    .navbar {
+      justify-content: space-between;
+      padding: 15px 40px;
+    }
+    .icon {
+      margin-top: 2px;
+    }
+    .logo img {
+      padding-top: 1px;
+      margin-left: 22px;
+      width: 89.4px;
+      object-fit: cover;
+    }
+    .userIcon{
+      padding: 0;
+    }
+    .userIcon svg{
+      width: 0;
+  }
+  .login-btn{
+    visibility: visible;
+    margin-right: 13px;
+  }
+  .signup-btn{
+    margin-left:2px;
+  }
+  /* #banner portion*/
+    .orderDelivery {
+      width: auto;
+      max-width: none;
+      /* padding: 50px; */
+      text-align: left;
+      background: transparent;
+      position: center;
+      margin-top: 312px;
+     margin-left: 9px;
+      /* transform: translateY(100%); */
+    }
+    .location-text{
+      font-family: font1;
+      margin-bottom: 1px;
+     padding-left: 1px; 
+     color:#5e6173;
+   }
+  
+    .orderDelivery h1 {
+      font-size: 52px;
+      width: 1000px;
+    }
+  
+    .delivery-options {
+      flex-direction: row;
+      align-items: center;
+    }
+    .delivery-address{
+      width:500px;
+      margin-top:17px;
+    }
+    .delivery-now{
+      width: 191px;
+      margin-top:16px;
+    }
+    .delivery-icon {
+      padding-top: 4px;
+    }
+    
+    .location-text,
+    .delivery-text {
+      padding-top: 2px;
+    }
+    .location-text{
+      margin-left: 15px;
+    }
+    .search-here {
+      width: auto;
+      width: 133px;
+      padding: 17px 16px;
+      margin-right: 20px;
+      margin-top: 16px;
+    }
+  
+    .links {
+      margin-top: 24px;
+    }
+    .link{
+      padding-left: 0px;
+    }
+    /*Image flex portion*/
+    .get-app,.get-app-button{
+      height: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    .image-flex{
+      padding: 0;
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 24px;
+      gap: 13px;
+     }
+    .feed-your-employee-img
+    ,.your-resturant-img,
+    .deliver-with-uber-img{
+      width: 100%;
+    }
+    .feed-your-employee-head,
+    .your-resturan-head,
+    .deliver-with-uber-head{
+      margin-top: 10px;
+      font-size: 28px;
+      font-family: font3;
+    }
+    .create-account,
+    .add-reasturant,
+    .sign-up-to-deliver{
+      font-size: 17px;
+      text-decoration: underline;
+      font-family: font1;
+      margin-top: 5px;
+    }
+    /*Map section*/
+.map-image{
+  margin-top: 25px;
+  background-image: url("map1.png");
+}
+.cities-near-me-head{
+  font-size: 36px;
+}
+.country-grid,
+.countries-with-uberEats-grid{
+  grid-template-columns: repeat(4,1fr); 
+ 
+}
+.view-all-cities{
+ display: none;
+}
+.country-grid li:nth-child(n+25) {
+  display: grid;
+}
+.countries-with-uberEats-grid{
+  grid-template-rows: repeat(16, 1fr);
+  grid-auto-flow: column; 
+}
+.final-flex{
+
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%; 
+}
+.mid-flex{
+  display: flex;
+}
+.final-flex-spacer{
+  width: 360px;
+}
+.appstore-logos{
+  margin-top: 190px;
+}
+.social-media{
+  margin-left: 360px;
+}
+.privacy-policy-flex,
+.Uber-technologies{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+  justify-content: right;
+}
+.privacy-policy-flex li{
+  margin: 10px 10px;
+}
+
+
+  }

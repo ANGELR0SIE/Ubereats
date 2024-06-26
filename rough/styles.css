@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgb(207, 153, 153);
+    height: 100vh;
+}
+.part1{
+    display: grid;
+    grid-template-columns: 39px 100px 1fr;
+    /* display: flex; */
+    align-items: center;
+    height: 48px; 
+    padding-left: 18px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.space{
+    flex: 1;
+}
+.icon{
+    font-size: 35px;
+}
+.logo img{
+    width: 88px;
+    object-fit: cover;
+}
+.userIcon{
+    margin-right: 12px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: none;
+    background: #fff;
+}
+.userIcon svg{
+    width: 16px;
+}
+.signup-btn{
+    color: #fff;
+    background: #000;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+    line-height: 25px;
+    padding: 5px;
+
+}
+.delivery-address{
+    display: flex;
+    background: #fff;
+    height: 54px;
+    align-items: center;
+    max-width: 420px;
+    /* margin-bottom: 10px;
+    margin-top: 9px;
+    margin-left: 11px;
+    margin-right:24px; */
+}
+.location-icon,.delivery-icon{
+    padding-left: 15px;
+}
+.location-text{
+    color: grey;
+    margin-left: 12px;
+    font-size: 16.5px;
+}
+.delivery-now{
+    height: 54px;
+    display:flex;
+    background: #fff;
+    align-items: center;
+    margin-right:24px;
+    margin-left: 11px;
+}
+.seach-here{
+    align-items: center;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 15px;
+    margin-right:25px;
+    margin-left: 11px;
+    background: #000;
+    color: #fff;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.orderDelivery{
+    display: flex;
+    flex-direction: column;
+    margin: 58px 250px;
+    text-align: center;
+    width: 100vh;
+    max-width: 920px;
+}
+.orderDelivery h1{
+    font-weight: 700;
+    font-size:34.55px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.Delivery-text{
+    margin-left: 12px;
+    font-size: 16.5px;
+    font-weight: bolder;
+}
+.delivery-select-icon{
+    margin-left: 203px;
+}
+.links{
+    display:flex;
+    margin-top: 26px;
+    color: #000;
+    font-size: smaller;
+    font-weight: bolder;
+}
+p{
+    margin-left: 9px;
+}
+.link{
+    color: #000;
+    margin-left: 5px;
+}
+/* #home{
+    background-image: url(https://www.ubereats.com/_static/c413f20400e04805.webp);
+    height: 963px;
+    background-size: cover; 
+     background-position:center;
+} */
+
+/* for desktop */
+
